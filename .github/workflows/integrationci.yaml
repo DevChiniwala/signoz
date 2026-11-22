@@ -44,6 +44,7 @@ jobs:
           - callbackauthn
           - cloudintegrations
           - dashboard
+          - fileauditor
           - ingestionkeys
           - inframonitoring
           - llmpricingrules
@@ -57,6 +58,7 @@ jobs:
           - querierscalar
           - queriercommon
           - querierai
+          - querieraudit
           - rawexportdata
           - promqlconformance
           - promapiconformance
@@ -84,7 +86,7 @@ jobs:
         clickhouse-version:
           - 25.12.5
           - 26.8.34
-        schema-migrator-version:
+        signoz-otel-collector-version:
           - v0.144.17
         postgres-version:
           - 15
@@ -160,4 +162,4 @@ jobs:
             --sqlite-mode ${{matrix.sqlite-mode}} \
             --postgres-version ${{matrix.postgres-version}} \
             --clickhouse-version ${{matrix.clickhouse-version}} \
-            --schema-migrator-version ${{matrix.schema-migrator-version}}
+            --signoz-otel-collector-version ${{matrix.signoz-otel-collector-version}}
