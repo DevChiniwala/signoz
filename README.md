@@ -18,6 +18,7 @@
   <a href="https://signoz.io/slack"><img alt="Slack community" src="https://img.shields.io/badge/slack-community-4A154B?logo=slack&logoColor=white"></a>
   <a href="https://www.linkedin.com/company/signozio/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-SigNoz-0A66C2?logo=linkedin&logoColor=white"></a>
   <a href="https://twitter.com/intent/tweet?text=Monitor%20your%20applications%20and%20troubleshoot%20problems%20with%20SigNoz,%20an%20open-source%20alternative%20to%20DataDog,%20NewRelic.&url=https://signoz.io/&via=SigNozHQ&hashtags=opensource,signoz,observability"><img alt="Tweet" src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"></a>
+  <a href="https://mcp-serverlist.com/mcp/signoz"><img alt="Listed on MCP ServerList" src="https://mcp-serverlist.com/api/badge/signoz"></a>
 </p>
 
 SigNoz is an open-source observability platform built on OpenTelemetry. We’re building an enterprise-grade alternative to fragmented monitoring stacks, with logs, metrics, traces, alerts, and dashboards in one place.
