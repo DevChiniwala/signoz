@@ -85,7 +85,7 @@ jobs:
           - 25.12.5
           - 26.8.34
         schema-migrator-version:
-          - v0.144.15
+          - v0.144.17
         postgres-version:
           - 15
         exclude:
